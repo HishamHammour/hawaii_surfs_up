@@ -29,7 +29,7 @@ app = Flask(__name__)
 def homepage():
     return (
         f"All Available Routes:<br/>"
-        f"(Note: Most recent available date is 2017-08-23 while the latest is 2010-01-01).<br/>"
+        f"(Note: available date is 2017-08-23 while the latest is 2010-01-01).<br/>"
 
         f"/api/v1.0/precipitation<br/>"
         f"- Query dates and temperature from the last year. <br/>"
